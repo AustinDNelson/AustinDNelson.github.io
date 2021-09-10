@@ -1,0 +1,60 @@
+/* Color palette:
+    #91A29D (Morning Blue/ Mostly grey)
+    #014552 (Midnight Green Eagle Grass (Dark, Dark blue))
+    #F2D9CB (Champagne Pink)
+    #97C3CE (Dark Sky Blue (Lighter blue))
+    #DCE7ED (Alice Blue (Light, light blue mostly offwhite with a blue tinge))
+*/
+
+
+body {
+    background-image: url('./images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*This is for the NAV bar*/
+ul {
+/*    display: flex;
+    flex-basis: auto;*/
+    border-radius: 25px;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #014552;
+    box-shadow: 10px 10px 5px grey;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #91A29D;
+}
+
+.card {
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #DCE7ED;
+    text-align: center;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.jumbotron {
+    background-color: #DCE7ED;
+}
+
+button {
+     margin: 10px;
+}
