@@ -59,9 +59,17 @@ button {
      margin: 10px;
 }
 
-.vertical {
+/*vertical centering*/
+.ver {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 20px;
+}
+
+/* Changing the button colors to match the palette */
+.btn-primary {
+    background-color: #97C3CE;
+    color: black;
+    border-color: #91A29D;
 }
