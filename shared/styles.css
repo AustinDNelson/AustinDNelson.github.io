@@ -58,3 +58,10 @@ li a:hover:not(.active) {
 button {
      margin: 10px;
 }
+
+.vertical {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
